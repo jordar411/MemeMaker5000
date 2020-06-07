@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body data-gr-c-s-loaded="true">
+    <div id="page-top">
+        <div id="content">
+           <center><h1>Jordan's Meme Generator</h1>
+                <div id="meme-gen">
+                    <form id="meme-form">
+                        <label for="meme-image">Image Source URL</label>
+                        <input type="text" name="meme-image" id="meme-image" placeholder="Link to your Meme Image" required="" autofocus="">
+                        <label for="top-text">Top Text</label>
+                        <input type="text" name="top-text" id="top-text" placeholder="(optional) Text for the top of your meme">
+                        <label for="bottom-text">Bottom Text</label>
+                        <input type="text" name="bottom-text" id="bottom-text" placeholder="(optional) Text for the bottom of your meme">
+                        <button id="create">CREATE</button>
+                        <button id="clear">CLEAR ALL</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+        <div class="memes">
+            <div id="temp" style="display: block;">
+                <h3>PLZ INSERT MEMEZ</h3>
+                <div id="load-pic"></div>
+            </div>
+        </div>
+    <script src="app.js"></script>
+
+</body></html>

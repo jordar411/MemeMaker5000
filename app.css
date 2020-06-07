@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#page-top {
+	background-color: black;
+	color: white;
+}
+
+#content {
+	max-width: 800px;
+	margin: auto;
+	padding: 0 5px 20px 20px;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 2%;
+}
+
+input {
+	display: block;
+	width: 300px;
+	margin: 2px 0 15px 0;
+	padding: 8px;
+	border-radius: 4px;
+	border: none;
+}
+
+button {
+	border-radius: 4px;
+	border: none;
+	padding: 4px;
+}
+
+#clear {
+	margin-left: 50px;
+}
+
+#load-pic {
+	position: relative;
+	background-position: center;
+	width: 75%;
+	max-width: 500px;
+	height: 500px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+
+#meme-gen {
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+.memes {
+	text-align: center;
+}
+
+.meme {
+	position: relative;
+	background-position: center;
+	width: 75%;
+	max-width: 500px;
+	height: 500px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: white;
+	font-weight: 600;
+	-webkit-text-stroke: 3px black;
+}
+
+.top {
+	position: absolute;
+	width: 95%;
+	top: 5%;
+	font-size: 3em;
+}
+
+.bottom {
+	position: absolute;
+	width: 95%;
+	bottom: 5%;
+	font-size: 3em;
+}
+
+.delete {
+	width: 100%;
+	height: 500px;
+	background-color: rgba(235, 19, 19, 0.25);
+	color: red;
+	font-size: 3em;
+	font-weight: 800;
+	-webkit-text-stroke: 0px;
+	display: none;
+}
+
+.meme:hover .delete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
